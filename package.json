@@ -1,0 +1,10 @@
+{
+  "name": "vue3-basic",
+  "author": "greenn.lab@gmail.com",
+  "scripts": {
+    "dev": "npx slidev slides.md --remote"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.37.0"
+  }
+}
