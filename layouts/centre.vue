@@ -1,9 +1,21 @@
 <template>
   <div class="slidev-layout center h-full">
     <div class="flex flex-col h-full items-center justify-center">
-      <h1 class="text-3xl">
-        <slot></slot>
-      </h1>
+      <slot></slot>
     </div>
   </div>
 </template>
+
+<style>
+ul {
+  @apply text-3xl;
+  list-style: disc!important;
+}
+
+li:first-child {
+  @apply mt-10;
+}
+li {
+  line-height: 2em;
+}
+</style>

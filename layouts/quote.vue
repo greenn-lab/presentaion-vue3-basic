@@ -7,3 +7,20 @@
     </div>
   </div>
 </template>
+
+<style>
+.quote blockquote {
+  padding: 0 5em;
+}
+.quote blockquote > i {
+  float: left
+}
+.quote blockquote::before {
+  content: '❝';
+}
+.quote blockquote::after {
+  content: '❞';
+  display: block;
+  text-align: right;
+}
+</style>
