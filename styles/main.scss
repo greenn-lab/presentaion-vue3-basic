@@ -18,11 +18,11 @@
   }
 
   h1 {
-    @apply text-4xl text-light-link dark:text-dark-link font-bold mb-4 -ml-[0.05em];
+    @apply text-5xl text-light-link dark:text-dark-link font-bold mb-4 -ml-[0.05em];
   }
 
   h2 {
-    @apply text-3xl font-bold text-light-link dark:text-dark-link;
+    @apply text-4xl font-bold text-light-link dark:text-dark-link;
   }
 
   h3 {
@@ -48,7 +48,8 @@
   }
 
   ul {
-    list-style: square;
+    list-style: disc;
+    @apply text-3xl
   }
 
   li {
@@ -93,35 +94,4 @@
     @apply border border-gray-400 border-b-2 border-opacity-20 rounded;
     @apply bg-gray-400 bg-opacity-5 py-0.5 px-1 text-sm font-mono;
   }
-}
-
-
-
-.slidev-layout > * > h1 {
-  @apply text-5xl;
-}
-.slidev-layout > * > p {
-  @apply text-3xl;
-}
-
-code {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 0.25rem;
-  padding: 0 0.25rem;
-}
-
-ul {
-  @apply text-3xl;
-  list-style: disc !important;
-}
-
-li:first-child {
-  @apply mt-10;
-}
-li {
-  line-height: 2em;
-}
-
-a:hover {
-  text-decoration: underline!important;
 }
