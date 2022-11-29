@@ -41,17 +41,28 @@ preload: false
 </div>
 
 
-<i v-click class="text-lg p-2">
-  <code>- Isaac Newton</code>
+<i v-click class="text-3xl p-2">
+  - Isaac Newton
 </i>
 
 ---
 # 3 Page
 ---
-<h1 class="text-5xl">준비물</h1>
+<h1>준비물</h1>
 
 - IDE (VSCode, WebStorm, ...)
-- ESLint, Prettier, Editorconfig
+- [ESLint](https://eslint.org), [Prettier](https://prettier.io/), [Editorconfig](https://editorconfig.org/)
 - [Vue Devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)<li v-click>꿈⭐️은 이루어진다!</li>
   
 
+---
+# 4 Page
+---
+`Option API` vs `Compoisition API`
+
+---
+layout: sfc
+example: '01.OptionsAPI'
+---
+
+# Options API

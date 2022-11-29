@@ -6,16 +6,4 @@
   </div>
 </template>
 
-<style>
-ul {
-  @apply text-3xl;
-  list-style: disc!important;
-}
-
-li:first-child {
-  @apply mt-10;
-}
-li {
-  line-height: 2em;
-}
-</style>
+<style></style>
