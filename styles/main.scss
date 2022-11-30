@@ -1,7 +1,7 @@
 .slidev-layout {
   @apply h-full;
   @apply bg-light-background text-light-text dark:(bg-dark-background text-dark-text)
-    @apply px-14 py-10 text-[1.1rem];
+  @apply px-14 py-10 text-[1.1rem];
 
   h1,
   h2,
@@ -15,6 +15,12 @@
   pre,
   code {
     @apply select-text;
+  }
+
+  code {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: .25rem;
+    padding: 0 .25rem;
   }
 
   h1 {
@@ -54,6 +60,11 @@
 
   li {
     @apply ml-1.1em pl-0.2em leading-1.8em;
+
+    > li {
+      list-style: none;
+      margin-left: 0;
+    }
   }
 
   blockquote {

@@ -52,14 +52,16 @@ preload: false
 
 - IDE (VSCode, WebStorm, ...)
 - [ESLint](https://eslint.org), [Prettier](https://prettier.io/), [Editorconfig](https://editorconfig.org/)
-- [Vue Devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)<li v-click>꿈⭐️은 이루어진다!</li>
+- [Vue Devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- <li v-click>꿈⭐️은 이루어진다!</li>
   
 
 ---
 # 4 Page
 ---
-`Option API` vs `Compoisition API`
-
+<div class="text-5xl">
+<code>Options API</code> vs <code>Composition API</code>
+</div>
 ---
 layout: sfc
 example: '01.OptionsAPI'

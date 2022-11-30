@@ -13,14 +13,16 @@
   padding: 0 5em;
 }
 .quote blockquote > i {
-  float: left
+  float: left;
 }
 .quote blockquote::before {
   content: '❝';
+  font-size: 2rem;
 }
 .quote blockquote::after {
   content: '❞';
   display: block;
+  font-size: 2rem;
   text-align: right;
 }
 </style>

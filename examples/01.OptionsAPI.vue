@@ -1,18 +1,18 @@
 <template>
-  <h1>Hello World"</h1>
-  <button @click="show = !show">Toggle Message</button>
-  <div v-if="show" class="message">{{ message }}</div>
+  <h1>!</h1>
+  <div v-if="show">
+    <span v-html="message.title"></span>
+    <span>{{ message.subtitle }}</span>
+  </div>
 </template>
 <script>
 export default {
   data: () => ({
-    show: false,
-    message: 'Great to be here!'
+    show: true,
+    message: {
+      title: 'This is <kbd>Options</kbd>',
+      subtitle: ', be <strong>great</strong>!'
+    }
   })
 }
 </script>
-<style scoped>
-.message {
-  color: red;
-}
-</style>
