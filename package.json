@@ -4,7 +4,7 @@
   "author": "greenn.lab@gmail.com",
   "scripts": {
     "dev": "npx slidev slides.md --remote",
-    "build": "slidev build"
+    "build": "npx slidev build"
   },
   "dependencies": {
     "@slidev/types": "^0.37.1"
