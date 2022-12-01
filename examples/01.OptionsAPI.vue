@@ -1,18 +1,24 @@
 <template>
-  <h1>!</h1>
-  <div v-if="show">
-    <span v-html="message.title"></span>
-    <span>{{ message.subtitle }}</span>
-  </div>
+  <section>
+    <h1 v-if="show">{{ message.title }}</h1>
+    <div v-html="message.subtitle"></div>
+    <div>{{ tweeting }}</div>
+  </section>
 </template>
 <script>
 export default {
   data: () => ({
     show: true,
     message: {
-      title: 'This is <kbd>Options</kbd>',
-      subtitle: ', be <strong>great</strong>!'
+      title: 'Options API',
+      subtitle: 'it was <strong>great</strong>!'
     }
-  })
+  }),
+  computed: {
+    tweeting() {
+      const { title, subtitle } = this.message
+      return [title, subtitle].join(' ')
+    }
+  }
 }
 </script>

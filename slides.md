@@ -50,6 +50,7 @@ preload: false
 ---
 <h1>준비물</h1>
 
+- 자바(~~타입~~)스크립트
 - IDE (VSCode, WebStorm, ...)
 - [ESLint](https://eslint.org), [Prettier](https://prettier.io/), [Editorconfig](https://editorconfig.org/)
 - [Vue Devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
@@ -59,12 +60,26 @@ preload: false
 ---
 # 4 Page
 ---
-<div class="text-5xl">
+<h1>
 <code>Options API</code> vs <code>Composition API</code>
-</div>
+</h1>
+
 ---
-layout: sfc
+# 5 Page
+layout: 'sfc'
 example: '01.OptionsAPI'
 ---
 
-# Options API
+---
+# 6 Page
+layout: 'sfc'
+example: '02.CompositionAPI'
+---
+
+---
+# 7 Page
+layout: 'image'
+---
+# 응집도 <sub>Cohesion</sub>
+![](https://bryceandy-devblog.s3-us-east-2.amazonaws.com/1652174208.png)
+https://www.bryceandy.com/posts/vue-composition-api-vs-options-api

@@ -15,7 +15,7 @@ const encoded = typeof window !== 'undefined' && content && window.btoa(JSON.str
 </script>
 
 <template>
-  <div class="slidev-layout default">
+  <div class="slidev-layout sfc">
     <div class="grid justify-items items-center w-full h-full">
       <slot />
 
@@ -25,7 +25,7 @@ const encoded = typeof window !== 'undefined' && content && window.btoa(JSON.str
           :src="`https://sfc.vuejs.org/#${encoded}`"
           frameborder="0"
           width="960"
-          height="460"
+          height="560"
           class="-mt-14 mb-2"
         ></iframe>
       </div>
