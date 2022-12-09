@@ -41,21 +41,17 @@ preload: false
 </div>
 
 
-<i v-click class="text-3xl p-2">
-  - Isaac Newton
-</i>
-
 ---
 # 3 Page
 ---
 <h1>준비물</h1>
 
+- HTML
 - 자바(~~타입~~)스크립트
 - IDE (VSCode, WebStorm, ...)
 - [ESLint](https://eslint.org), [Prettier](https://prettier.io/), [Editorconfig](https://editorconfig.org/)
 - [Vue Devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-- <li v-click>꿈⭐️은 이루어진다!</li>
-  
+
 
 ---
 # 4 Page
