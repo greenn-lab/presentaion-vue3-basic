@@ -123,3 +123,30 @@ example: '05.Computed'
 ---
 # Computed
 
+---
+# 13 Page
+layout: 'sfc2'
+example: '06.ForLoop'
+---
+# For-loop
+
+---
+# 14 Page
+layout: 'sfc2'
+example: '07.Directives'
+---
+# Directives
+
+---
+# 15 Page
+layout: 'sfc2'
+example: '08.Binding'
+---
+# v-model (Bidirectional Binding)
+
+---
+# 16 Page
+layout: 'sfc2'
+example: '09.Events'
+---
+# Events
