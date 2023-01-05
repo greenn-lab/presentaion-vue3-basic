@@ -79,3 +79,47 @@ layout: 'image'
 # 응집도 <sub>Cohesion</sub>
 ![](https://bryceandy-devblog.s3-us-east-2.amazonaws.com/1652174208.png)
 https://www.bryceandy.com/posts/vue-composition-api-vs-options-api
+
+
+---
+# 8 Page
+---
+# 템플릿 문법 (Template Syntax)
+<br>
+
+`{{ interpolation }}`
+
+`v-bind:title="안녕"`
+
+`v-on:click="alert('안녕')"`
+
+---
+# 9 Page
+layout: 'sfc2'
+example: '03.TemplateSyntax'
+---
+# 템플릿 문법 (Template Syntax)
+
+
+---
+# 10 Page
+---
+# 반응형
+<br>
+
+`$ref()`
+
+---
+# 11 Page
+layout: 'sfc2'
+example: '04.Reactive'
+---
+# 반응형
+
+---
+# 12 Page
+layout: 'sfc2'
+example: '05.Computed'
+---
+# Computed
+
